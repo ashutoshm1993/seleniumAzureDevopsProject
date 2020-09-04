@@ -9,7 +9,7 @@ public class HomePage {
 	
 	By logo = By.xpath("//img[@class='astra-logo-svg']");
 	By allProductslink = By.xpath("//a[contains(text(),'All Products')]");
-	By shopButton = By.xpath("(//span[contains(text(),'Shop 1Now')])[1]");
+	By shopButton = By.xpath("(//span[contains(text(),'Shop Now')])[1]");
 	
 	
 	public HomePage(WebDriver driver) {
