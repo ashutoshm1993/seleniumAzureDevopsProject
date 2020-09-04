@@ -13,6 +13,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Base {
 	public WebDriver driver;
 	public Properties prop;
@@ -25,8 +27,9 @@ public class Base {
 		
 		if(browserName.equals("chrome")) {
 			
-			System.setProperty("webdriver.chrome.driver", "src/main/java/resources/chromedriver.exe");
-			driver=new ChromeDriver();
+			  WebDriverManager.chromedriver().setup();
+			  driver = new ChromeDriver();
+			
 
 			
 		}
