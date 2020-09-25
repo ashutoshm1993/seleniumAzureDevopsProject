@@ -7,7 +7,8 @@ import org.openqa.selenium.WebElement;
 public class HomePage {
 	public WebDriver driver;
 	
-	By logo = By.xpath("//img[@class='astra-logo-svg']");
+	//By logo = By.xpath("//img[@class='astra-logo-svg']");
+	By logo = By.xpath("//img[@class='fl-photo-img wp-image-2728']");
 	By allProductslink = By.xpath("//a[contains(text(),'All Products')]");
 	By shopButton = By.xpath("(//span[contains(text(),'Shop Now')])[1]");
 	
