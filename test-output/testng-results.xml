@@ -1,57 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25210" started-at="2020-09-25T17:03:00Z" finished-at="2020-09-25T17:03:25Z">
+  <suite name="Default suite" duration-ms="8761" started-at="2020-09-25T19:33:26Z" finished-at="2020-09-25T19:33:35Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8340" started-at="2020-09-25T17:03:00Z" finished-at="2020-09-25T17:03:08Z">
-      <class name="Academy.HomePageLogo">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePageLogo@1a451d4d]" name="initialize" is-config="true" duration-ms="8149" started-at="2020-09-25T17:03:00Z" finished-at="2020-09-25T17:03:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="homePageLogoVerification()[pri:0, instance:Academy.HomePageLogo@1a451d4d]" name="homePageLogoVerification" duration-ms="90" started-at="2020-09-25T17:03:08Z" finished-at="2020-09-25T17:03:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageLogoVerification -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePageLogo@1a451d4d]" name="tearDown" is-config="true" duration-ms="81" started-at="2020-09-25T17:03:08Z" finished-at="2020-09-25T17:03:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Academy.HomePageLogo -->
-    </test> <!-- Test -->
-    <test name="Test2" duration-ms="8787" started-at="2020-09-25T17:03:08Z" finished-at="2020-09-25T17:03:17Z">
+    <test name="Default test" duration-ms="8761" started-at="2020-09-25T19:33:26Z" finished-at="2020-09-25T19:33:35Z">
       <class name="Academy.VerifyingProductName">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.VerifyingProductName@9f116cc]" name="initialize" is-config="true" duration-ms="7654" started-at="2020-09-25T17:03:08Z" finished-at="2020-09-25T17:03:16Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.VerifyingProductName@548a102f]" name="initialize" is-config="true" duration-ms="7508" started-at="2020-09-25T19:33:26Z" finished-at="2020-09-25T19:33:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="verifyProductName()[pri:0, instance:Academy.VerifyingProductName@9f116cc]" name="verifyProductName" duration-ms="1077" started-at="2020-09-25T17:03:16Z" finished-at="2020-09-25T17:03:17Z">
+        <test-method status="PASS" signature="verifyProductName()[pri:0, instance:Academy.VerifyingProductName@548a102f]" name="verifyProductName" duration-ms="1157" started-at="2020-09-25T19:33:33Z" finished-at="2020-09-25T19:33:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.VerifyingProductName@9f116cc]" name="tearDown" is-config="true" duration-ms="54" started-at="2020-09-25T17:03:17Z" finished-at="2020-09-25T17:03:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.VerifyingProductName@548a102f]" name="tearDown" is-config="true" duration-ms="80" started-at="2020-09-25T19:33:35Z" finished-at="2020-09-25T19:33:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Academy.VerifyingProductName -->
-    </test> <!-- Test2 -->
-    <test name="Test3" duration-ms="7759" started-at="2020-09-25T17:03:17Z" finished-at="2020-09-25T17:03:25Z">
-      <class name="Academy.VerifyingShopButton">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.VerifyingShopButton@6b81ce95]" name="initialize" is-config="true" duration-ms="7631" started-at="2020-09-25T17:03:17Z" finished-at="2020-09-25T17:03:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="verifyShopButtonDisplay()[pri:0, instance:Academy.VerifyingShopButton@6b81ce95]" name="verifyShopButtonDisplay" duration-ms="55" started-at="2020-09-25T17:03:25Z" finished-at="2020-09-25T17:03:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyShopButtonDisplay -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.VerifyingShopButton@6b81ce95]" name="tearDown" is-config="true" duration-ms="72" started-at="2020-09-25T17:03:25Z" finished-at="2020-09-25T17:03:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Academy.VerifyingShopButton -->
-    </test> <!-- Test3 -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
