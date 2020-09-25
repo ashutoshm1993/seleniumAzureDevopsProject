@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="Academy.Listeners"/>
   </listeners>
-  <test thread-count="5" name="Test3(failed)">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Academy.VerifyingShopButton">
+      <class name="Academy.HomePageLogo">
         <methods>
           <include name="tearDown"/>
-          <include name="verifyShopButtonDisplay"/>
+          <include name="homePageLogoVerification"/>
           <include name="initialize"/>
         </methods>
-      </class> <!-- Academy.VerifyingShopButton -->
+      </class> <!-- Academy.HomePageLogo -->
     </classes>
-  </test> <!-- Test3(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
